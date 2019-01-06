@@ -1,24 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Download and installation
 
-Things you may want to cover:
+This application requires that Ruby-on-Rails be installed on your machine.
 
-* Ruby version
+On Windows 10, use the Linux subsystem (bash).
 
-* System dependencies
+1. download the repository in zip format
 
-* Configuration
+2. unzip to local directory
 
-* Database creation
+3. cd <local directory>
+ 
+4. bundle install
 
-* Database initialization
+5. rails db:migrate
 
-* How to run the test suite
+6. rails db:seed (takes several minutes)
 
-* Services (job queues, cache servers, search engines, etc.)
+7. rails s
 
-* Deployment instructions
+8. the application will be served on port: 3000
 
-* ...
