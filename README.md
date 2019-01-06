@@ -10,7 +10,7 @@ On Windows 10, use the Linux subsystem (bash).
 
 2. unzip to local directory
 
-3. cd <local directory>
+3. cd to local directory
  
 4. bundle install
 
